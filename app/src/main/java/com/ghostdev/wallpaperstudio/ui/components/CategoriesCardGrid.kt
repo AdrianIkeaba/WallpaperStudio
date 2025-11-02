@@ -96,9 +96,6 @@ fun CategoriesCardGrid(
                     Box(
                         modifier = Modifier
                             .clip(RoundedCornerShape(24.dp))
-                            .background(
-                                Color.White.copy(alpha = 0.25f)
-                            )
                             .drawBackdrop(
                                 backdrop = imageBackdrop,
                                 shape = { CircleShape },

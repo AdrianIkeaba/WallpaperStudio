@@ -94,9 +94,6 @@ fun FavoritesCardGrid(
                     modifier = Modifier
                         .size(40.dp)
                         .clip(CircleShape)
-                        .background(
-                            Color.White.copy(alpha = 0.25f)
-                        )
                         .drawBackdrop(
                             backdrop = imageBackdrop,
                             shape = { CircleShape },
@@ -150,9 +147,6 @@ fun FavoritesCardGrid(
                 Box(
                     modifier = Modifier
                         .clip(RoundedCornerShape(24.dp))
-                        .background(
-                            Color.White.copy(alpha = 0.25f)
-                        )
                         .drawBackdrop(
                             backdrop = imageBackdrop,
                             shape = { CircleShape },

@@ -47,7 +47,7 @@ import androidx.compose.ui.unit.sp
 import com.ghostdev.wallpaperstudio.R
 import com.ghostdev.wallpaperstudio.data.models.Favorite
 import com.ghostdev.wallpaperstudio.data.prefs.ActiveWallpaperPrefs
-import com.ghostdev.wallpaperstudio.ui.screens.favorites.components.FavoritesCard
+import com.ghostdev.wallpaperstudio.ui.screens.favorites.components.FavoritesCardGrid
 import com.ghostdev.wallpaperstudio.ui.screens.favorites.components.FavoritesCardList
 import com.ghostdev.wallpaperstudio.ui.screens.homepage.components.WallpaperPreviewDialog
 import com.ghostdev.wallpaperstudio.ui.screens.homepage.components.WallpaperSetupDialog
@@ -298,7 +298,7 @@ private fun CategoryComponent(
                                 horizontalArrangement = Arrangement.spacedBy(20.dp)
                             ) {
                                 rowItems.forEach { favorite ->
-                                    FavoritesCard(
+                                    FavoritesCardGrid(
                                         favorite = favorite,
                                         onFavoriteClick = {
                                             toggleFavorite(favorites.indexOf(favorite))
