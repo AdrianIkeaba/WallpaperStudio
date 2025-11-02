@@ -38,7 +38,7 @@ To get a local copy up and running for development and testing, follow these sim
 
 <img width="334" height="728" alt="image" src="https://github.com/user-attachments/assets/44d9af11-84e2-442d-a369-11b629409692" /> <img width="334" height="728" alt="image" src="https://github.com/user-attachments/assets/48d0c5af-4082-476f-b64c-b1282a1553a2" />
 
-<img width="334" height="728" alt="image" src="https://github.com/user-attachments/assets/538951e7-1138-4a92-9d2c-7132896cf472" />  <img width="3324" height="728" alt="image" src="https://github.com/user-attachments/assets/592b96f0-1ec3-4e08-97b1-a20a2a660076" />
+<img width="334" height="728" alt="image" src="https://github.com/user-attachments/assets/538951e7-1138-4a92-9d2c-7132896cf472" />  <img width="334" height="728" alt="image" src="https://github.com/user-attachments/assets/592b96f0-1ec3-4e08-97b1-a20a2a660076" />
 
 <img width="334" height="728" alt="image" src="https://github.com/user-attachments/assets/4414b6a2-f41f-454b-994c-3884efc43e8a" />
 
