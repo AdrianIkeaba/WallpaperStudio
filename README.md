@@ -47,8 +47,8 @@ To get a local copy up and running for development and testing, follow these sim
 - APK Direct Download
   - (Check Release Tab)
 - Appetize.io
-- 
+  - [Appetize Link](https://appetize.io/app/b_2f6ak72rej5kesg6av65unip2m)
 - Figma
   - [Figma Link](https://www.figma.com/design/WnHFPfZ7uW2vxy4sHqtb12/MOBILE-WALLPAPER-SELECTOR?node-id=0-1&p=f&t=2uDO3enoMFIThi2n-0)
 - Demo Video
-  - [Google Drive Video]()
+  - [Google Drive Video](https://drive.google.com/file/d/1rRkboxm_lA5jxcdwb9rgwRwpOWvU4zo-/view?usp=sharing)
