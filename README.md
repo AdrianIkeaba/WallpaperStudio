@@ -34,13 +34,14 @@ To get a local copy up and running for development and testing, follow these sim
     *   Click the "Run 'app'" button (green play icon) in the toolbar. This will build and install the application on your selected device/emulator, allowing you to interact with it and test its functionalities locally.
 
 ## Screenshots
-<img width="720" height="1080" alt="image" src="https://github.com/user-attachments/assets/56370385-530b-4176-bf09-3da4112e04ad" /> <img width="720" height="1080" alt="image" src="https://github.com/user-attachments/assets/7fd74e03-2666-419d-b78c-ad416f218709" />
+<img width="334" height="748" alt="image" src="https://github.com/user-attachments/assets/56370385-530b-4176-bf09-3da4112e04ad" /> <img width="334" height="748" alt="image" src="https://github.com/user-attachments/assets/7fd74e03-2666-419d-b78c-ad416f218709" />
 
-<img width="720" height="1080" alt="image" src="https://github.com/user-attachments/assets/44d9af11-84e2-442d-a369-11b629409692" /> <img width="720" height="1080" alt="image" src="https://github.com/user-attachments/assets/48d0c5af-4082-476f-b64c-b1282a1553a2" />
+<img width="334" height="728" alt="image" src="https://github.com/user-attachments/assets/44d9af11-84e2-442d-a369-11b629409692" /> <img width="334" height="728" alt="image" src="https://github.com/user-attachments/assets/48d0c5af-4082-476f-b64c-b1282a1553a2" />
 
 <img width="720" height="1080" alt="image" src="https://github.com/user-attachments/assets/538951e7-1138-4a92-9d2c-7132896cf472" />  <img width="720" height="1080" alt="image" src="https://github.com/user-attachments/assets/592b96f0-1ec3-4e08-97b1-a20a2a660076" />
 
-<img width="720" height="1080" alt="image" src="https://github.com/user-attachments/assets/4414b6a2-f41f-454b-994c-3884efc43e8a" />
+<img width="334" height="728" alt="image" src="https://github.com/user-attachments/assets/4414b6a2-f41f-454b-994c-3884efc43e8a" />
+
 
 ## Links
 - APK Direct Download
