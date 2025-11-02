@@ -1,6 +1,7 @@
 # Wallpaper Studio
 
-Wallpaper Studio is a modern Android application built with Jetpack Compose, designed to provide users with a beautiful collection of wallpapers categorized for easy browsing.
+Wallpaper Studio is an Android application built with Jetpack Compose, designed to provide users with a beautiful collection of wallpapers categorized for easy browsing.
+Built to perfection and pixel perfect.
 
 ## Features
 
@@ -13,7 +14,7 @@ Wallpaper Studio is a modern Android application built with Jetpack Compose, des
 *   **Kotlin:** Primary programming language for Android development.
 *   **Jetpack Compose:** Modern toolkit for building native Android UI.
 *   **Material 3:** Latest iteration of Material Design for Android.
-*   **Backdrop Library:** For advanced UI effects like blurring and lens distortion.
+*   **Backdrop Library:** For advanced UI effects like blurring and lens distortion for liquid glass effect.
 
 ## Setup
 
@@ -21,7 +22,7 @@ To get a local copy up and running for development and testing, follow these sim
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/WallpaperStudio.git
+    git clone https://github.com/AdrianIkeaba/WallpaperStudio.git
     ```
 2.  **Open in Android Studio:**
     Open the cloned project in Android Studio.
@@ -33,19 +34,20 @@ To get a local copy up and running for development and testing, follow these sim
     *   Click the "Run 'app'" button (green play icon) in the toolbar. This will build and install the application on your selected device/emulator, allowing you to interact with it and test its functionalities locally.
 
 ## Screenshots
+<img width="1344" height="2992" alt="image" src="https://github.com/user-attachments/assets/56370385-530b-4176-bf09-3da4112e04ad" /> <img width="1344" height="2992" alt="image" src="https://github.com/user-attachments/assets/7fd74e03-2666-419d-b78c-ad416f218709" />
 
-(Add screenshots of your application here)
+<img width="1344" height="2992" alt="image" src="https://github.com/user-attachments/assets/44d9af11-84e2-442d-a369-11b629409692" /> <img width="1344" height="2992" alt="image" src="https://github.com/user-attachments/assets/48d0c5af-4082-476f-b64c-b1282a1553a2" />
 
-## Contributing
+<img width="1344" height="2992" alt="image" src="https://github.com/user-attachments/assets/538951e7-1138-4a92-9d2c-7132896cf472" />  <img width="1344" height="2992" alt="image" src="https://github.com/user-attachments/assets/592b96f0-1ec3-4e08-97b1-a20a2a660076" />
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+<img width="1344" height="2992" alt="image" src="https://github.com/user-attachments/assets/4414b6a2-f41f-454b-994c-3884efc43e8a" />
 
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+## Links
+- APK Direct Download
+  - (Check Release Tab)
+- Appetize.io
+- 
+- Figma
+  - [Figma Link](https://www.figma.com/design/WnHFPfZ7uW2vxy4sHqtb12/MOBILE-WALLPAPER-SELECTOR?node-id=0-1&p=f&t=2uDO3enoMFIThi2n-0)
+- Demo Video
+  - [Google Drive Video]()
