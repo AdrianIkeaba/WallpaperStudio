@@ -34,6 +34,10 @@ import androidx.compose.ui.unit.sp
 import com.ghostdev.wallpaperstudio.R
 import com.ghostdev.wallpaperstudio.data.models.Favorite
 import com.ghostdev.wallpaperstudio.ui.theme.PoppinsFontFamily
+import com.kyant.backdrop.backdrops.layerBackdrop
+import com.kyant.backdrop.backdrops.rememberLayerBackdrop
+import com.kyant.backdrop.drawBackdrop
+import com.kyant.backdrop.effects.lens
 
 @Composable
 fun FavoritesCardGrid(
@@ -42,6 +46,8 @@ fun FavoritesCardGrid(
     onCardClick: () -> Unit,
     modifier: Modifier = Modifier
 ) {
+    val imageBackdrop = rememberLayerBackdrop()
+
     Box(
         modifier = modifier
             .fillMaxWidth()
@@ -51,7 +57,9 @@ fun FavoritesCardGrid(
     ) {
         // Background Image
         Image(
-            modifier = Modifier.fillMaxSize(),
+            modifier = Modifier
+                .fillMaxSize()
+                .layerBackdrop(imageBackdrop),
             painter = painterResource(favorite.image),
             contentDescription = "Favorite Image",
             contentScale = ContentScale.Crop
@@ -89,25 +97,17 @@ fun FavoritesCardGrid(
                         .background(
                             Color.White.copy(alpha = 0.25f)
                         )
-                        .drawWithCache {
-                            val borderBrush = Brush.horizontalGradient(
-                                colors = listOf(
-                                    Color.White.copy(alpha = 0.6f),
-                                    Color.Transparent,
-                                    Color.White.copy(alpha = 0.6f)
-                                )
-                            )
-                            onDrawWithContent {
-                                drawContent()
-                                drawRoundRect(
-                                    brush = borderBrush,
-                                    style = Stroke(width = 2.dp.toPx()),
-                                    cornerRadius = CornerRadius(
-                                        50.dp.toPx()
-                                    )
+                        .drawBackdrop(
+                            backdrop = imageBackdrop,
+                            shape = { CircleShape },
+                            effects = {
+                                lens(
+                                    refractionHeight = 12f.dp.toPx(),
+                                    refractionAmount = 16f.dp.toPx(),
+                                    chromaticAberration = true
                                 )
                             }
-                        }
+                        )
                         .clickable {
                             onFavoriteClick()
                         },
@@ -143,7 +143,6 @@ fun FavoritesCardGrid(
                 )
             )
 
-            // Category Badge
             Box(
                 modifier = Modifier
             ) {
@@ -154,25 +153,17 @@ fun FavoritesCardGrid(
                         .background(
                             Color.White.copy(alpha = 0.25f)
                         )
-                        .drawWithCache {
-                            val borderBrush = Brush.horizontalGradient(
-                                colors = listOf(
-                                    Color.White.copy(alpha = 0.6f),
-                                    Color.Transparent,
-                                    Color.White.copy(alpha = 0.6f)
-                                )
-                            )
-                            onDrawWithContent {
-                                drawContent()
-                                drawRoundRect(
-                                    brush = borderBrush,
-                                    style = Stroke(width = 2.dp.toPx()),
-                                    cornerRadius = CornerRadius(
-                                        50.dp.toPx()
-                                    )
+                        .drawBackdrop(
+                            backdrop = imageBackdrop,
+                            shape = { CircleShape },
+                            effects = {
+                                lens(
+                                    refractionHeight = 12f.dp.toPx(),
+                                    refractionAmount = 16f.dp.toPx(),
+                                    chromaticAberration = true
                                 )
                             }
-                        }
+                        )
                 ) {
                     Text(
                         text = favorite.category,
